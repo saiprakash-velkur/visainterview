@@ -13,7 +13,8 @@ A Spring Boot monolith application for managing card transactions with account c
 ## Prerequisites
 - Java 17
 - Maven
-- Docker (for PostgreSQL)
+- Docker
+- Docker compose
 
 ## Setup
 
