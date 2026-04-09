@@ -1,6 +1,7 @@
 package com.example.visainterview.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import lombok.Data;
@@ -22,7 +23,7 @@ public class CreateTransactionRequest {
     @JsonProperty("amount")
     private BigDecimal amount;
     
-    @NotNull(message = "Idempotency key is required")
+    @NotBlank(message = "Idempotency key is required")
     @JsonProperty("idempotencyKey")
     private String idempotencyKey;
 }

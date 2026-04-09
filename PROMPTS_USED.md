@@ -117,3 +117,7 @@ Add index on idempotencykey - for faster lookup
 
 Prompt:3
 Create a docker file for this application
+
+================================
+
+Write JUnit tests
