@@ -1,0 +1,12 @@
+.git
+.gitignore
+.env
+.env.example
+README.md
+Makefile
+.vscode
+.idea
+*.log
+bin/
+.amazonq/
+docker-compose.yaml
